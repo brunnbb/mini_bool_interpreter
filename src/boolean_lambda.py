@@ -25,7 +25,6 @@ def resultado(r):
 
 def main():
     print('\nEscreva o seu operador booleano (NOT, AND, OR, NOR, NAND, XOR) e seu argumento')
-    print('Obedeça algum dos seguintes formatos: OR(TRUE)(FALSE), not(false)')
     while True:
         try:
             str_expr = input('>').strip().upper()

@@ -1,5 +1,5 @@
 import unittest
-from lambda_bool_interpreter import TRUE, FALSE, NOT, AND, OR, NAND, NOR, XOR, IF, resultado
+from boolean_lambda import TRUE, FALSE, NOT, AND, OR, NAND, NOR, XOR, IF, resultado
 
 class TestBooleanOperators(unittest.TestCase):
 
